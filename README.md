@@ -4,7 +4,7 @@ for the project you will need the following:
 to download dependancies:
 
 ```bash
-$ npm react-icons
+$ npm react-icons react-typical
 ```
 
 To run reactjs application run:
