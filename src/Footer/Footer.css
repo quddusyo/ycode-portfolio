@@ -1,0 +1,17 @@
+.footer__container {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(162, 162, 162);
+    background-color: rgb(17, 17, 17);
+  }
+  
+  .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

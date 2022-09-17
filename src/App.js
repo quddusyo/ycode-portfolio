@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import About from './About/About';
 import './App.css';
+import Footer from './Footer/Footer';
+import Home from './Home/Home';
+import Nav from './Nav/Nav';
+import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
 
 function App() {
+  const [themeSwitch, setThemeSwitch]= useState(true)
+  console.log(themeSwitch)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={themeSwitch ? 'app' : 'appDark'}>
+      <Nav
+        themeSwitch={themeSwitch}
+        setThemeSwitch={setThemeSwitch}
+      />
+      <Home />
+      <Skills />
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,92 @@
+.home-container {
+    background-color: aliceblue;
+}
+.home-container > h2 {
+    margin: 35px 0 50px 0;
+}
+.home-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-icons-container {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-icon > * {
+    width: 20px;
+    /* large screens */
+    /* width: 30px; */
+    border-radius: 8px;
+    background-color: aliceblue;
+    border: 2px solid #21273b;
+    padding: 3px;
+    color: #21273f;
+    height: auto;
+}
+.contact-icon > *:hover {
+    transform: scale(1.4);
+    background-color: orangered;
+}
+.p-container {
+    margin: 0 80px;
+    text-align: center;
+}
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+    width: 340px;
+    /* height: 388px;
+    width: 388px; */
+}
+.profile-picture-background {
+    height: 70%;
+    width: 70%;
+    /* height: 92%;
+    width: 92%; */
+    background-image: url("../assets/profile-photo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 360px) {
+    .p-container {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .profile-picture-background {
+        height: 92%;
+        width: 92%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .contact-icon > * {
+        width: 30px;
+    }
+    .profile-picture {
+        height: 377px;
+        width: 377px;
+    }
+}
+
