@@ -1,5 +1,5 @@
 /* variables for when changing to frequently used colors */
-/* can apply by adding var(--colorWanted) */
+/* can apply by adding var(--DesiredColor) */
 :root {
   --mainColor: rgb(37, 34, 34);
   --mainColorDark: #7b4108;
@@ -32,8 +32,6 @@ a, a:hover, a:focus, a:active {
 
 /* reuseable css styles */
 .container-default {
-  /* big screen */
-  /* margin: 100px 50px; */
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
@@ -43,11 +41,63 @@ a, a:hover, a:focus, a:active {
 }
 
 .p-default {
-  /* big size */
-  /* font-size: 20px; */
   font-size: 14px;
   line-height: 1.5;
-  margin: 15px 5px 25px 5px;
-  /* big screen size */
-  /* margin: 35px; */
+  margin: 15px 5px 25px 10px;
+}
+
+/* arrow up styles */
+.footer__btn {
+  cursor: pointer;
+  border: none;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: white;
+  background-color: orangered;
+  z-index: 10000;
+  right: 15px;
+  bottom: 20px;
+}
+
+.footer__btn:hover {
+  outline: none;
+  background-color: orange;
+}
+
+.footer__btn:active {
+  background-color: orange;
+  outline: none;
+}
+/* end of arrow up styles */
+@media screen and (min-width: 360px) {
+  .p-default {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 412px) {
+  .p-default {
+    margin: 15px 15px 30px 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__btn {
+    height: 65px;
+    width: 65px;
+    font-size: 42px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .p-default {
+    margin: 20px 40px 40px 40px;
+    line-height: 2.3;
+    font-weight: 500;
+  }
 }

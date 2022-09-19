@@ -8,7 +8,6 @@ const Nav = ({themeSwitch, setThemeSwitch}) => {
     <div className='nav-container'>
         <h1>ycode.co</h1>
         <div className='nav-right'>
-            <a className='nav-link' href='/#'>Contact</a>
             <button
               className={themeSwitch ? 'themeSwitchContainer nav-switch' : 'themeSwitchContainerLight nav-switch'}
               onClick={() => setThemeSwitch(!themeSwitch)}

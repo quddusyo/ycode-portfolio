@@ -26,7 +26,14 @@ const Projects = () => {
                                 </div>
                         </details>
                     </div>
-                    <a href={index.url} target='_blank' rel='noreferrer'>View Project</a>
+                    <div className='project-links'>
+                        {index.url && (
+                            <a href={index.url} target='_blank' rel='noreferrer'>View Project</a>
+                        )}
+                        {index.github_url && (
+                            <a href={index.github_url} target='_blank' rel='noreferrer'>Github</a>
+                        )}
+                    </div>
                 </div>
             )
         })}

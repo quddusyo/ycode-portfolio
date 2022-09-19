@@ -1,6 +1,9 @@
 .home-container {
     background-color: aliceblue;
 }
+span {
+    color: orangered;
+}
 .home-container > h2 {
     margin: 35px 0 50px 0;
 }
@@ -14,6 +17,9 @@
     align-items: center;
     justify-content: center;
 }
+.home-slides {
+    height: 60px;
+}
 .home-icons-container {
     width: 300px;
     margin: 20px;
@@ -25,19 +31,50 @@
     /* large screens */
     /* width: 30px; */
     border-radius: 8px;
-    background-color: aliceblue;
-    border: 2px solid #21273b;
+    /* background-color: aliceblue; */
+    background-color: #21273b;
     padding: 3px;
-    color: #21273f;
+    /* color: #21273f; */
+    color: aliceblue;
     height: auto;
 }
 .contact-icon > *:hover {
     transform: scale(1.4);
     background-color: orangered;
+    transition: 0.3s ease-out;
 }
 .p-container {
     margin: 0 80px;
     text-align: center;
+}
+.btn {
+    margin: 5px 0px 10px 0px;
+    border-radius: 25px;
+    color: cornsilk;
+    width: 110px;
+    height: 44px;
+    font-family: "Poppins Medium";
+    font-size: 14px;
+    font-weight: 600;
+}
+.primary-btn {
+    border: 2px solid #111;
+    color: #111;
+}
+.primary-btn:hover {
+    border: 3px solid orangered;
+    color: #111;
+    transition: 0.3s ease-out;
+}
+.highlighted-btn {
+    margin: 0 0 0 10px;
+    background-color: orangered;
+}
+
+.highlighted-btn:hover {
+    background-color: cornsilk;
+    color: #111;
+    transition: 0.3s ease-out;
 }
 .profile-picture {
     display: flex;
@@ -61,12 +98,20 @@
 }
 
 @media screen and (min-width: 360px) {
+    .contact-icon > * {
+        width: 30px;
+        padding: 5px;
+    }
     .p-container {
         margin: 0 20px;
     }
+    .highlighted-btn {
+        margin: 0 0 30px 30px;
+        background-color: orangered;
+    }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 412px) {
     .profile-picture-background {
         height: 92%;
         width: 92%;
@@ -75,6 +120,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .btn {
+        width: 130px;
+        font-size: 16px;
+    }
     .content-container {
         display: flex;
         flex-direction: row;
@@ -84,9 +133,16 @@
     .contact-icon > * {
         width: 30px;
     }
+    .p-container {
+        margin: 0 40px;
+    }
     .profile-picture {
         height: 377px;
         width: 377px;
     }
 }
-
+@media screen and (min-width: 1024px) {
+    .p-container {
+        margin: 0 80px;
+    }
+}

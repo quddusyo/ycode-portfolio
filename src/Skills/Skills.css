@@ -61,8 +61,11 @@ color: black;
 }
 
 @media screen and (min-width: 540px) {
+.skill-list {
+    margin: 20px 80px;
+}
 .skills {
-    gap: 1.5rem;
+    gap: 2rem;
 }
 .btnContent > img {
     width: 55px;

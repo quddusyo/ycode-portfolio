@@ -23,16 +23,16 @@ const Home = () => {
               <AiFillLinkedin className='linkedin-icon' />
             </a>
           </div>
-          <h3>Hi, I'm Yousuf</h3>
-          <h3>
+          <h3>Hi, I'm <span>Yousuf</span></h3>
+          <h3 className='home-slides'>
             <Typical
               loop={Infinity}
               steps={[
                 "~ Full Stack Developer 🚀",
                 1200,
-                "~ Passionate Learner 🧠",
+                "~ Passionate Learner 🌱",
                 1200,
-                "~ React Developer ⚛️",
+                "~ Self Taught 📚",
                 1200,
               ]}
             />
@@ -42,6 +42,14 @@ const Home = () => {
               I sit at the intersection of web development and software engineering to create applications 
               and present them in a beautiful and easy-to-understand way to help your business grow. Let's connect.
             </p>
+          </div>
+          <div className='profile-options'>
+            <a href='mailto: yusuf1quddus@gmail.com' target='_blank' rel="noreferrer">
+              <button className='btn primary-btn'>Contact Me</button>
+            </a>
+            <a href='YousufQ_Resume.pdf' download='YousufQ_Resume.pdf'>
+              <button className='btn highlighted-btn'>Get Resume</button>
+            </a>
           </div>
         </div>
         <div className='profile'>
