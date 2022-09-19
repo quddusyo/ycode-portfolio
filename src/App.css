@@ -24,6 +24,12 @@
   max-width: 100vw;
 }
 
+/* default header styles */
+h2, h3 {
+  font-size: 30px;
+  font-family: 'Georama', sans-serif;
+}
+
 /* remove default a tag styles */
 a, a:hover, a:focus, a:active {
   text-decoration: none;

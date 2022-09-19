@@ -14,9 +14,6 @@
     background-color: aliceblue;
     border-radius: 4px;
     margin: 20px 0;
-    /* mid - large size */
-    /* margin: 80px; */
-    /* mid - large size */
     padding: 25px 0 40px 0;
     height: auto;
     width: auto;
@@ -35,12 +32,6 @@
     color: white;
     font-weight: 500;
     border-radius: 10px;
-    /* mid - large sizes */
-    /* padding: 20px;
-    background-color: orangered;
-    color: white;
-    font-weight: 700;
-    border-radius: 10px; */
 }
 .project-links > a:hover {
     transition: 0.2s ease-in-out;
@@ -48,8 +39,6 @@
 }
 .project-description {
     padding: 5px 10px;
-    /* mid-large sizes */
-    /* padding: 25px 40px; */
 }
 .project-skills-container {
     display: flex;
