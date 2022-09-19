@@ -87,11 +87,11 @@ a, a:hover, a:focus, a:active {
 }
 @media screen and (min-width: 768px) {
   .footer__btn {
-    height: 65px;
-    width: 65px;
+    height: 50px;
+    width: 50px;
     font-size: 42px;
-    right: 30px;
-    bottom: 30px;
+    right: 35px;
+    bottom: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
