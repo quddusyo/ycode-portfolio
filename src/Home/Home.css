@@ -27,14 +27,10 @@ span {
     justify-content: space-evenly;
 }
 .contact-icon > * {
-    width: 20px;
-    /* large screens */
-    /* width: 30px; */
+    width: 26px;
     border-radius: 8px;
-    /* background-color: aliceblue; */
     background-color: #21273b;
     padding: 3px;
-    /* color: #21273f; */
     color: aliceblue;
     height: auto;
 }

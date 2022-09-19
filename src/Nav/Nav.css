@@ -6,20 +6,15 @@
     align-items: center;
     color: orangered;
     padding: 0 20px;
-    /* mid - large screens */
-    /* padding: 0 120px; */
     font-family: 'Montserrat', sans-serif;
 }
 .nav-container > h1 {
     font-size: 36px;
-    /* mid - large screens */
-    /* font-size: 44px; */
     font-family: 'Titillium Web', sans-serif;
 }
-/* .nav-right {
-    mid - large screens
-    padding: 0 240px;
-} */
+.nav-right {
+    margin: 0 20px;
+}
 .nav-switch {
     margin:  0 60px 0 20px;
     border: 2px solid orangered;
@@ -31,13 +26,23 @@
     background-color: rgb(233, 99, 51);
     border: 2px solid #21273b;
     transition: 0.3s ease-in-out;
+    transform: scale(1.2);
 }
 button > img {
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
 }
 .nav-link:hover {
     color: black;
     transform: scale(1.5);
     transition: 0.7s ease-out;
+}
+@media screen and (min-width: 820px) {
+    button > img {
+        height: 30px;
+        width: 30px;
+    }
+    .nav-container > h1 {
+        font-size: 46px;
+    }
 }
