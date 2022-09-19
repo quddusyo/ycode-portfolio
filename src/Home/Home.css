@@ -82,14 +82,10 @@ span {
     justify-content: center;
     height: 340px;
     width: 340px;
-    /* height: 388px;
-    width: 388px; */
 }
 .profile-picture-background {
     height: 70%;
     width: 70%;
-    /* height: 92%;
-    width: 92%; */
     background-image: url("../assets/profile-photo.jpg");
     background-size: cover;
     border-radius: 50%;
@@ -144,5 +140,12 @@ span {
 @media screen and (min-width: 1024px) {
     .p-container {
         margin: 0 80px;
+    }
+    .profile {
+        margin: 0 90px 0 0;
+    }
+    .profile-picture-background {
+        height: 412px;
+        width: 412px;
     }
 }
