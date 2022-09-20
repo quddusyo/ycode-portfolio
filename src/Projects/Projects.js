@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import { ProjectData } from './ProjectData';
+import { AiOutlineEye, AiOutlineGithub } from 'react-icons/ai'
 
 const Projects = ({themeSwitch, setThemeSwitch}) => {
   return (
@@ -28,10 +29,10 @@ const Projects = ({themeSwitch, setThemeSwitch}) => {
                     </div>
                     <div className='project-links'>
                         {index.url && (
-                            <a href={index.url} target='_blank' rel='noreferrer'>View Project</a>
+                            <a href={index.url} target='_blank' rel='noreferrer'><AiOutlineEye /></a>
                         )}
                         {index.github_url && (
-                            <a href={index.github_url} target='_blank' rel='noreferrer'>Github</a>
+                            <a href={index.github_url} target='_blank' rel='noreferrer'><AiOutlineGithub /></a>
                         )}
                     </div>
                 </div>

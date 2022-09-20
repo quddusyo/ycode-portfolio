@@ -17,25 +17,18 @@
 }
 .nav-switch {
     margin:  0 60px 0 20px;
-    border: 2px solid orangered;
     background-color: orangered;
     padding: 5px;
     border-radius: 50%;
 }
 .nav-switch:hover {
-    background-color: rgb(233, 99, 51);
-    border: 2px solid #21273b;
+    background-image: linear-gradient(to right, orangered , orange);
     transition: 0.3s ease-in-out;
     transform: scale(1.2);
 }
 button > img {
     height: 26px;
     width: 26px;
-}
-.nav-link:hover {
-    color: black;
-    transform: scale(1.5);
-    transition: 0.7s ease-out;
 }
 @media screen and (min-width: 820px) {
     button > img {
