@@ -17,14 +17,14 @@
 }
 .nav-switch {
     margin:  0 60px 0 20px;
-    background-color: orangered;
+    background-image: linear-gradient(to left, orangered , orange);
     padding: 5px;
     border-radius: 50%;
 }
 .nav-switch:hover {
     background-image: linear-gradient(to right, orangered , orange);
     transition: 0.3s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 button > img {
     height: 26px;
