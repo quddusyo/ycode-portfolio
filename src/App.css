@@ -66,7 +66,7 @@ a, a:hover, a:focus, a:active {
   font-size: 24px;
   color: white;
   background-color: orangered;
-  z-index: 10000;
+  z-index: 1000;
   right: 15px;
   bottom: 20px;
 }
@@ -81,6 +81,9 @@ a, a:hover, a:focus, a:active {
   background-color: orange;
   transition: 0.3s ease-out;
   outline: none;
+}
+.footer__btn > * {
+  z-index: 1000;
 }
 /* end of arrow up styles */
 @media screen and (min-width: 360px) {

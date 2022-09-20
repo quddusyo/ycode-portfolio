@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { AiOutlineArrowUp } from 'react-icons/ai';
+import ArrowUp from './assets/Icons/ArrowUp.png';
 import About from './About/About';
 import './App.css';
 import Footer from './Footer/Footer';
@@ -38,7 +38,7 @@ function App() {
       <Home />
       {showButton && (
         <button className='footer__btn' onClick={scrollToTop}>
-          <AiOutlineArrowUp />
+          <img src={ArrowUp} alt='' />
         </button>
       )}
       <Skills />
