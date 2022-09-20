@@ -63,10 +63,12 @@ span {
 }
 .primary-btn {
     border: 3px solid #21273b;
+    background-color: aliceblue;
     color: #111;
 }
 .primary-btn:hover {
     border: 3px solid orangered;
+    background-color: white;
     color: #111;
     transition: 0.3s ease-out;
 }
