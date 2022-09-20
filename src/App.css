@@ -51,6 +51,15 @@ a, a:hover, a:focus, a:active {
   line-height: 1.5;
   margin: 15px 5px 25px 10px;
 }
+.dark-text {
+  color: white;
+}
+.bg-light-1 {
+  background-color: aliceblue;
+}
+.bg-dark-1 {
+  background-color: #21273b;
+}
 
 /* arrow up styles */
 .footer__btn {
@@ -87,12 +96,12 @@ a, a:hover, a:focus, a:active {
 }
 /* end of arrow up styles */
 @media screen and (min-width: 360px) {
-  .p-default {
+  .p-default, .p-default-dark {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 412px) {
-  .p-default {
+  .p-default, .p-default-dark {
     margin: 15px 15px 30px 15px;
   }
 }
@@ -106,7 +115,7 @@ a, a:hover, a:focus, a:active {
   }
 }
 @media screen and (min-width: 1024px) {
-  .p-default {
+  .p-default, .p-default-dark {
     margin: 20px 40px 40px 40px;
     line-height: 2.3;
     font-weight: 500;

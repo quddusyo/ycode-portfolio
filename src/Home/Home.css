@@ -1,13 +1,13 @@
-.home-container {
-    background-color: aliceblue;
-}
 span {
     color: orangered;
     font-family: 'Montserrat', sans-serif;
 }
+
 .home-container > h2 {
     margin: 35px 0 50px 0;
+    font-size: 28px;
 }
+
 .home-intro {
     display: flex;
     flex-direction: column;
@@ -28,12 +28,18 @@ span {
     display: flex;
     justify-content: space-evenly;
 }
+.btn-light-style > * {
+    color: white;
+    background-color: #21273b;
+}
+.btn-dark-style > * {
+    color: #21273b;
+    background-color: white;
+}
 .contact-icon > * {
     width: 26px;
     border-radius: 8px;
-    background-color: #21273b;
     padding: 3px;
-    color: aliceblue;
     height: auto;
 }
 .contact-icon > *:hover {
@@ -92,7 +98,7 @@ span {
 }
 
 @media screen and (min-width: 360px) {
-    .contact-icon > * {
+    .btn-light-style > *, .btn-dark-style > * {
         width: 30px;
         padding: 5px;
     }
@@ -103,8 +109,6 @@ span {
         margin: 0 0 30px 30px;
         background-color: orangered;
     }
-}
-@media screen and (min-width: 360px) {
     .home-icons-container {
         width: 300px;
     }
@@ -128,7 +132,7 @@ span {
         justify-content: space-between;
         margin-bottom: 30px;
     }
-    .contact-icon > * {
+    .btn-light-style > *, .btn-dark-style > *{
         width: 30px;
     }
     .p-container {

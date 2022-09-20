@@ -3,23 +3,23 @@ import './Home.css';
 import Typical from 'react-typical';
 import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiFillPhone } from 'react-icons/ai'
 
-const Home = () => {
+const Home = ({themeSwitch, setThemeSwitch}) => {
   return (
-    <div className='home-container container-default'>
+    <div className={themeSwitch ? 'home-container bg-light-1 container-default' : 'home-container container-default bg-dark-1 dark-text'}>
       <h2>Software Engineer</h2>
       <div className='content-container'>
         <div className='home-intro'>
           <div className='home-icons-container'>
-            <a className='contact-icon' href='mailto: yusuf1quddus@gmail.com' target='_blank' rel='noreferrer'>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='mailto: yusuf1quddus@gmail.com' target='_blank' rel='noreferrer'>
               <AiTwotoneMail className='mail-icon' />
             </a>
-            <a className='contact-icon' href='Tel: 6474506754' target='_blank' rel='noreferrer'>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='Tel: 6474506754' target='_blank' rel='noreferrer'>
               <AiFillPhone className='phone-icon' />
             </a>
-            <a className='contact-icon' href='https://github.com/quddusyo' target='_blank' rel='noreferrer'>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://github.com/quddusyo' target='_blank' rel='noreferrer'>
               <AiFillGithub className='github-icon' />
             </a>
-            <a className='contact-icon' href='https://www.linkedin.com/in/yousuf-quddus' target='_blank' rel='noreferrer'>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://www.linkedin.com/in/yousuf-quddus' target='_blank' rel='noreferrer'>
               <AiFillLinkedin className='linkedin-icon' />
             </a>
           </div>

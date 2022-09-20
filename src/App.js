@@ -35,15 +35,24 @@ function App() {
         themeSwitch={themeSwitch}
         setThemeSwitch={setThemeSwitch}
       />
-      <Home />
+      <Home
+        themeSwitch={themeSwitch}
+        setThemeSwitch={setThemeSwitch}
+      />
       {showButton && (
         <button className='footer__btn' onClick={scrollToTop}>
           <img src={ArrowUp} alt='' />
         </button>
       )}
       <Skills />
-      <About />
-      <Projects />
+      <About
+        themeSwitch={themeSwitch}
+        setThemeSwitch={setThemeSwitch}
+      />
+      <Projects
+        themeSwitch={themeSwitch}
+        setThemeSwitch={setThemeSwitch}
+      />
       <Footer />
     </div>
   );
