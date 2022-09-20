@@ -24,9 +24,11 @@ const Skills = () => {
                 <div className='skills'>
                     {SkillsData.map((skill, index) => (
                         <button
-                         key={skill.id}
-                         onMouseEnter={() => toggle(skill.id)}
-                         onMouseLeave={() => setClicked(false)}
+                         key={index}
+                        //  hover actions
+                        //  onMouseEnter={() => toggle(skill.id)}
+                        onMouseLeave={() => setClicked(false)}
+                         onClick={() => toggle(skill.id)}
                          className='skill-btn'
                         >
                             <div className='btnContent'>
