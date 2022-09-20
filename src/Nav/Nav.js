@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
-import themeSwitchIcon from '../assets/Nav/theme-switch.png'
-import themeSwitchIconLight from '../assets/Nav/theme-switch-light.png'
+import themeSwitchIconLight from '../assets/Icons/Moon.png';
+import themeSwitchIcon from '../assets/Nav/theme-switch.png';
 
 const Nav = ({themeSwitch, setThemeSwitch}) => {
   return (
@@ -9,7 +9,7 @@ const Nav = ({themeSwitch, setThemeSwitch}) => {
         <h1>ycode.co</h1>
         <div className='nav-right'>
             <button
-              className={themeSwitch ? 'themeSwitchContainer nav-switch' : 'themeSwitchContainerLight nav-switch'}
+              className={themeSwitch ? 'themeSwitchContainerLight nav-switch' : 'themeSwitchContainer nav-switch'}
               onClick={() => setThemeSwitch(!themeSwitch)}
             >
               <img src={themeSwitch ? themeSwitchIconLight : themeSwitchIcon} alt='' />

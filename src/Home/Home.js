@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Typical from 'react-typical';
-import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiFillPhone } from 'react-icons/ai'
+import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiFillPhone } from 'react-icons/ai';
 
 const Home = ({themeSwitch, setThemeSwitch}) => {
   return (
