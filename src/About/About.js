@@ -8,7 +8,7 @@ const About = ({themeSwitch, setThemeSwitch}) => {
         <p className='p-default'>
           I am a software developer raised in Toronto Ontario. I have been learning web development for
           two years and have experience with the MERN stack. I also have experience with object 
-          oriented programming and function programming. Join me in my jounrney into tech.
+          oriented programming and function programming. Join me in my journey into tech.
         </p>
     </div>
   )
