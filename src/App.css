@@ -1,15 +1,20 @@
 /* variables for when changing to frequently used colors */
 /* can apply by adding var(--DesiredColor) */
 :root {
-  --mainColor: rgb(37, 34, 34);
-  --mainColorDark: #7b4108;
-  --mainColorLight: rgba(255, 69, 0, 0.1);
-  --secondaryColor: rgb(99, 81, 75);
-  --tertiaryColor: rgb(245, 245, 245);
-  --mainTextColor: rgb(175, 175, 175);
-  --secondaryTextColor: rgb(200, 200, 200);
+  --mainColor: rgb(255, 69, 0);
+  --secondaryColor: #21273b;
+  --footerBg: rgb(17, 17, 17);
+  --footerText: rgb(162, 162, 162);
+  --beige: rgb(255, 248, 220);
+  --mainBgColor: rgb(240, 248, 255);
+  --white: rgb(255,255,255);
+  --black: rgb(0, 0, 0);
+  --orange: rgb(242, 144, 46);
+  --secondaryBgColor: rgb(246, 222, 193);
+  --tertiaryBgColor: rgb(227, 227, 227);
 }
 
+/* Default App styles */
 .app {
   background-color: rgb(247, 247, 247);
   padding: 20px;
@@ -17,8 +22,9 @@
   max-width: 100vw;
 }
 
+/* Dark mode App styles */
 .appDark {
-  background-color: #21273b;
+  background-color: var(--secondaryColor);
   padding: 20px;
   min-height: 100vh;
   max-width: 100vw;
@@ -52,13 +58,13 @@ a, a:hover, a:focus, a:active {
   margin: 15px 5px 25px 10px;
 }
 .dark-text {
-  color: white;
+  color: var(--white);
 }
 .bg-light-1 {
-  background-color: aliceblue;
+  background-color: var(--mainBgColor);
 }
 .bg-dark-1 {
-  background-color: #21273b;
+  background-color: var(--secondaryColor);
 }
 
 /* arrow up styles */
@@ -73,8 +79,8 @@ a, a:hover, a:focus, a:active {
   width: 40px;
   border-radius: 5px;
   font-size: 24px;
-  color: white;
-  background-color: orangered;
+  color: var(--white);
+  background-color: var(--mainColor);
   z-index: 1000;
   right: 15px;
   bottom: 20px;
@@ -82,12 +88,12 @@ a, a:hover, a:focus, a:active {
 
 .footer__btn:hover {
   outline: none;
-  background-color: orange;
+  background-color: var(--orange);
   transition: 0.3s ease-out;
 }
 
 .footer__btn:active {
-  background-color: orange;
+  background-color: var(--orange);
   transition: 0.3s ease-out;
   outline: none;
 }

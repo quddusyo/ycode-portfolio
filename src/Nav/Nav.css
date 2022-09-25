@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: orangered;
+    color: var(--mainColor);
     padding: 0 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,12 +17,12 @@
 }
 .nav-switch {
     margin:  0 60px 0 20px;
-    background-image: linear-gradient(to left, orangered , orange);
+    background-image: linear-gradient(to left, var(--mainColor) , var(--orange));
     padding: 5px;
     border-radius: 50%;
 }
 .nav-switch:hover {
-    background-image: linear-gradient(to right, orangered , orange);
+    background-image: linear-gradient(to right, var(--mainColor) , var(--orange));
     transition: 0.3s ease-in-out;
     transform: scale(1.3);
 }

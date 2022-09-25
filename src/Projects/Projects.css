@@ -1,7 +1,7 @@
 .projects-container {
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: bisque;
+    background-color: var(--secondaryBgColor);
 }
 .projects-container > h2 {
     text-align: center;
@@ -28,14 +28,14 @@
     padding: 10px 15px 5px 15px;
     margin: 0px 10px;
     justify-content: center;
-    background-color: orangered;
-    color: white;
+    background-color: var(--mainColor);
+    color: var(--white);
     border-radius: 10px;
     font-size: 28px;
 }
 .project-links > a:hover {
     transition: 0.2s ease-in-out;
-    background-color: orange;
+    background-color: var(--orange);
 }
 .project-description {
     padding: 5px 10px;

@@ -1,5 +1,5 @@
 span {
-    color: orangered;
+    color: var(--mainColor);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,12 +29,12 @@ span {
     justify-content: space-evenly;
 }
 .btn-light-style > * {
-    color: white;
-    background-color: #21273b;
+    color: var(--white);
+    background-color: var(--secondaryColor);
 }
 .btn-dark-style > * {
     color: #21273b;
-    background-color: white;
+    background-color: var(--white);
 }
 .contact-icon > * {
     width: 26px;
@@ -44,7 +44,7 @@ span {
 }
 .contact-icon > *:hover {
     transform: scale(1.4);
-    background-color: orangered;
+    background-color: var(--mainColor);
     transition: 0.3s ease-out;
 }
 .p-container {
@@ -54,7 +54,7 @@ span {
 .btn {
     margin: 5px 0px 10px 0px;
     border-radius: 25px;
-    color: cornsilk;
+    color: var(--secondaryBgColor);
     width: 110px;
     height: 44px;
     font-family: "Poppins Medium";
@@ -62,24 +62,24 @@ span {
     font-weight: 600;
 }
 .primary-btn {
-    border: 3px solid #21273b;
-    background-color: aliceblue;
-    color: #111;
+    border: 3px solid var(--secondaryColor);
+    background-color: var(--mainBgColor);
+    color: var(--footerBg);
 }
 .primary-btn:hover {
-    border: 3px solid orangered;
-    background-color: white;
-    color: #111;
+    border: 3px solid var(--mainColor);
+    background-color: var(--white);
+    color: var(--footerBg);
     transition: 0.3s ease-out;
 }
 .highlighted-btn {
     margin: 0 0 0 10px;
-    background-color: orangered;
+    background-color: var(--mainColor);
 }
 
 .highlighted-btn:hover {
-    background-color: cornsilk;
-    color: #111;
+    background-color: var(--beige);
+    color: var(--footerBg);
     transition: 0.3s ease-out;
 }
 .profile-picture {
@@ -93,8 +93,8 @@ span {
     height: 70%;
     width: 70%;
     background-image: url("../assets/profile-photo.jpg");
-    border-bottom: 2px solid orangered;
-    border-top: 2px solid orangered;
+    border-bottom: 2px solid var(--mainColor);
+    border-top: 2px solid var(--mainColor);
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ span {
     }
     .highlighted-btn {
         margin: 0 0 30px 30px;
-        background-color: orangered;
+        background-color: var(--mainColor);
     }
     .home-icons-container {
         width: 300px;

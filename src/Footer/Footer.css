@@ -6,8 +6,8 @@
     align-items: center;
     text-align: center;
     font-size: 14px;
-    color: rgb(162, 162, 162);
-    background-color: rgb(17, 17, 17);
+    color: var(--footerText);
+    background-color: var(--footerBg);
   }
   
   .footer__content {
