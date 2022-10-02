@@ -11,6 +11,7 @@ import mongoIcon from '../assets/Skills/mongodb.png';
 import bootstrapIcon from '../assets/Skills/bootstrap.png';
 import responsiveIcon from '../assets/Skills/responsive.png';
 import reactIcon from '../assets/Skills/reactjs.png';
+import postmanIcon from '../assets/Skills/postman.png';
 
 
 export const ProjectData = [
@@ -20,7 +21,7 @@ export const ProjectData = [
         description: 'Da Spot is a full-stack CRUD web application which allows users to login and post spots they have visited with the spots information to plan their trips with ease. Utilized Nodejs, Mongodb, Express, Bootstrap, MapBox API and npm modules. Implemented user register and login pages with authentication and authorization to insure safe password storage alongside plenty of validation middleware to insure correct form submissions.',
         url: 'https://daspot.herokuapp.com/',
         github_url: 'https://github.com/quddusyo/DaSpot',
-        skills: [htmlIcon, cssIcon, jsIcon, mongoIcon, bootstrapIcon, nodeIcon, expressIcon, responsiveIcon],
+        skills: [htmlIcon, cssIcon, jsIcon, mongoIcon, bootstrapIcon, nodeIcon, expressIcon, postmanIcon],
         image: project1
     },
     {

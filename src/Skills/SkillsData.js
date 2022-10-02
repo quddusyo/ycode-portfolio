@@ -12,6 +12,8 @@ import githubIcon from '../assets/Skills/github.png';
 import responsiveIcon from '../assets/Skills/responsive.png';
 import reactIcon from '../assets/Skills/reactjs.png';
 import pythonIcon from '../assets/Skills/python.png';
+import postmanIcon from '../assets/Skills/postman.png';
+import awsIcon from '../assets/Skills/AWS_Cloud.png';
 
 export const SkillsData = [
     {
@@ -97,5 +99,17 @@ export const SkillsData = [
         desc: 'Responsive Design', 
         state: false, 
         img: responsiveIcon 
+    },
+    { 
+        id: 15, 
+        desc: 'Postman API', 
+        state: false, 
+        img: postmanIcon 
+    },
+    { 
+        id: 16, 
+        desc: 'AWS Cloud', 
+        state: false, 
+        img: awsIcon 
     }
 ]

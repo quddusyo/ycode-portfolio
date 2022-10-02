@@ -25,16 +25,15 @@ justify-content: center;
 
 .skill-btn {
 position: relative;
+cursor: pointer;
 border-radius: 50px;
 border: 1px solid var(--dark-orange);
 background: var(--tertiaryBgColor);
 }
 
 .skill-btn:active {
-    transition: 0.3s ease-out;
     border: 1.6px solid var(--mainColor);
-    outline: 0;
-    border: 1.6px solid var(--dark-orange);
+    /* outline: 0; */
 }
 
 .btnContent > img {
