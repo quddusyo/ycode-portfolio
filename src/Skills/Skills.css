@@ -31,7 +31,7 @@ border: 1px solid var(--dark-orange);
 background: var(--tertiaryBgColor);
 }
 
-.skill-btn:active {
+.skill-btn:active, .skill-btn:hover {
     border: 1.6px solid var(--mainColor);
     /* outline: 0; */
 }
@@ -76,7 +76,7 @@ color: var(--black);
 .skills {
     margin: 2rem;
 }
-.skill-btn:hover {
+.skill-btn:hover, .skill-btn:active {
     border: 2px solid var(--mainColor);
 }
 .btnContent > img {
