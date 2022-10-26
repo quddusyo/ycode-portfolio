@@ -18,7 +18,7 @@ export const ProjectData = [
     {
         id: 0,
         title: 'Da Spot',
-        description: 'Da Spot is a full-stack CRUD web application which allows users to login and post spots they have visited with the spots information to plan their trips with ease. Utilized Nodejs, Mongodb, Express, Bootstrap, MapBox API and npm modules. Implemented user register and login pages with authentication and authorization to insure safe password storage alongside plenty of validation middleware to insure correct form submissions.',
+        description: 'Da Spot is a full-stack CRUD web application which allows users to login and post spots they have visited with the spots information to plan their trips with ease. Implemented Error Handling and Utilized Nodejs, Mongodb, Express, Bootstrap, MapBox API, and npm modules. This website includes multiple routes, some are log-in/register pages with safe password storing. Try it out or view the source code below.',
         url: 'https://daspot.herokuapp.com/',
         github_url: 'https://github.com/quddusyo/DaSpot',
         skills: [htmlIcon, cssIcon, jsIcon, mongoIcon, bootstrapIcon, nodeIcon, expressIcon, postmanIcon],
@@ -43,7 +43,7 @@ export const ProjectData = [
     {
         id: 3,
         title: 'FenceIt',
-        description: 'FenceIt is a renovation company template which offers a wide variety of renovation services. This website was created to show potential customers a template for websites. This website utilizes many modern css properties to give it a modern UI/UX design. This website template code is in my github in a private repository. Contact me if interested in the source code. ',
+        description: 'FenceIt is a renovation company (self created) template which offers a wide variety of renovation services. This website was created to show customers an example template for websites. This website utilizes many modern css properties to give it a modern design.',
         url: 'https://fenceit-2ab0b.web.app/',
         skills: [htmlIcon, cssIcon, jsIcon, reactIcon, responsiveIcon],
         image: project4
