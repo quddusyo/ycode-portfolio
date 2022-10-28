@@ -16,7 +16,7 @@ const Skills = () => {
     }
 
     return (
-        <div className='skills-container container-default'>
+        <div data-aos="fade-right" className='skills-container container-default'>
             <div className='title-container'>
                 <h2>my tech stack</h2>
             </div>

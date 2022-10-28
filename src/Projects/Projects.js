@@ -9,7 +9,7 @@ const Projects = ({themeSwitch, setThemeSwitch}) => {
         <h2>Projects I've worked on</h2>
         {ProjectData.map((index) => {
             return (
-                <div className={themeSwitch ? 'project-container bg-light-1' : 'project-container bg-dark-1 dark-text'} key={index}>
+                <div  data-aos="flip-right" className={themeSwitch ? 'project-container bg-light-1' : 'project-container bg-dark-1 dark-text'} key={index}>
                     <h3>{index.title}</h3>
                     <div className='project-img'>
                         <img src={index.image} alt='' className='image' />

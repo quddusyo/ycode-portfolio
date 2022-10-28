@@ -8,12 +8,12 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
     <div className={themeSwitch ? 'home-container bg-light-1 container-default' : 'home-container container-default bg-dark-1 dark-text'}>
       <h2>Software Engineer</h2>
       <div className='content-container'>
-        <div className='home-intro'>
+        <div data-aos="fade-left" className='home-intro'>
           <div className='home-icons-container'>
             <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='mailto: yusuf1quddus@gmail.com' target='_blank' rel='noreferrer'>
               <AiTwotoneMail className='mail-icon' />
             </a>
-            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='Tel: 6474506754' target='_blank' rel='noreferrer'>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='Tel: 6473882675' target='_blank' rel='noreferrer'>
               <AiFillPhone className='phone-icon' />
             </a>
             <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://github.com/quddusyo' target='_blank' rel='noreferrer'>

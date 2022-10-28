@@ -7,12 +7,17 @@ import Home from './Home/Home';
 import Nav from './Nav/Nav';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [themeSwitch, setThemeSwitch]= useState(true);
   const [showButton, setShowButton] = useState(false);
-  // console.log(themeSwitch)
-
+  // animate on scroll implementation
+  useEffect(() => {
+      Aos.init({ duration: 1500 });
+  }, []);
+  // to top button
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 80) {
@@ -44,7 +49,7 @@ function App() {
           <img src={ArrowUp} alt='' />
         </button>
       )}
-      <Skills />
+      <Skills/>
       <About
         themeSwitch={themeSwitch}
         setThemeSwitch={setThemeSwitch}
