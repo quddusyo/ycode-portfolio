@@ -21,6 +21,7 @@ span {
 .home-slides {
     height: 60px;
     font-size: 21px;
+    padding-bottom: 30px;
 }
 .home-icons-container {
     width: 200px;
@@ -148,6 +149,10 @@ span {
     }
 }
 @media screen and (min-width: 1024px) {
+    .contact-icon > * {
+        width: 35px;
+        border-radius: 10px;
+    }
     .p-container {
         margin: 0 80px;
     }

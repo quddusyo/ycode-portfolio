@@ -49,7 +49,7 @@ function App() {
           <img src={ArrowUp} alt='' />
         </button>
       )}
-      <Skills/>
+      <Skills />
       <About
         themeSwitch={themeSwitch}
         setThemeSwitch={setThemeSwitch}

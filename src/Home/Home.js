@@ -1,46 +1,47 @@
 import React from 'react';
 import './Home.css';
 import Typical from 'react-typical';
-import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiFillPhone } from 'react-icons/ai';
+import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
 
 const Home = ({themeSwitch, setThemeSwitch}) => {
   return (
     <div className={themeSwitch ? 'home-container bg-light-1 container-default' : 'home-container container-default bg-dark-1 dark-text'}>
-      <h2>Software Engineer</h2>
+      <h2>Web Developer</h2>
       <div className='content-container'>
         <div data-aos="fade-left" className='home-intro'>
           <div className='home-icons-container'>
             <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='mailto: yusuf1quddus@gmail.com' target='_blank' rel='noreferrer'>
-              <AiTwotoneMail className='mail-icon' />
-            </a>
-            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='Tel: 6473882675' target='_blank' rel='noreferrer'>
-              <AiFillPhone className='phone-icon' />
-            </a>
-            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://github.com/quddusyo' target='_blank' rel='noreferrer'>
-              <AiFillGithub className='github-icon' />
+              <AiTwotoneMail />
             </a>
             <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://www.linkedin.com/in/yousuf-quddus' target='_blank' rel='noreferrer'>
-              <AiFillLinkedin className='linkedin-icon' />
+              <AiFillLinkedin />
+            </a>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://github.com/quddusyo' target='_blank' rel='noreferrer'>
+              <AiFillGithub />
+            </a>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://twitter.com/codewithyou' target='_blank' rel='noreferrer'>
+              <AiFillTwitterSquare />
             </a>
           </div>
           <h3>Hi, I'm <span>Yousuf</span></h3>
-          <h3 className='home-slides'>
+          <div className='home-slides'>
             <Typical
               loop={Infinity}
               steps={[
-                "~ Full Stack Developer 🚀",
+                "~ Web Developer 🚀",
                 1200,
                 "~ Passionate Learner 🌱",
                 1200,
-                "~ Self Taught 📚",
+                "~ Great Googler 🔎",
                 1200,
               ]}
+              wrapper="h4"
             />
-          </h3>
+          </div>
           <div className='p-container'>
             <p className='p-default content'>
-              I sit at the intersection of web development and software engineering to create applications 
-              and present them in a beautiful and easy-to-understand way to help your business grow. Let's connect.
+              I sit at the intersection of web development and digital marketing to create applications 
+              and present them in a beautiful and easy-to-understand manner to help businesses grow.
             </p>
           </div>
           <div className='profile-options'>

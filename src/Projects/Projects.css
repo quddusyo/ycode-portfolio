@@ -44,14 +44,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
 }
 summary {
     margin: 20px 20px 40px 20px;
-}
-.project-skills {
-    height: 50px;
-    width: auto;
-    margin: 0 20px 50px 0;
 }
 .project-img > img{
     height: 150px;
@@ -72,10 +69,6 @@ summary {
         padding: 12px 20px 8px 20px;
         font-size: 32px;
         font-weight: 700;
-    }
-    .project-skills {
-        width: 60px;
-        height: 60px;
     }
     .project-img > img{
         height: 300px;

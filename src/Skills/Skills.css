@@ -18,13 +18,15 @@ margin: 1rem;
 
 .skills {
 display: flex;
-gap: 1.2rem;
+gap: 0.2rem;
 flex-wrap: wrap;
 justify-content: center;
 }
 
 .skill-btn {
 position: relative;
+margin: 0.5rem;
+margin-bottom: 1rem;
 cursor: pointer;
 border-radius: 50px;
 border: 1px solid var(--dark-orange);
@@ -37,8 +39,8 @@ background: var(--tertiaryBgColor);
 }
 
 .btnContent > img {
-height: 40px;
-width: 40px;
+height: 45px;
+width: 45px;
 }
 
 .btnContent > p {
@@ -56,35 +58,32 @@ color: var(--black);
 
 @media screen and (min-width: 540px) {
 .skill-list {
-    margin: 20px 80px;
+    margin: 20px 60px;
 }
 .skills {
-    gap: 2rem;
+    gap: 0.5rem;
 }
 .btnContent > img {
     width: 55px;
     height: 55px;
 }
 .btnContent > p {
-    font-size: 13px;
+    font-size: 14px;
 }
 }
 @media screen and (min-width: 768px) {
 .skills-container {
     padding-bottom: 20px;
 }
-.skills {
-    margin: 2rem;
-}
 .skill-btn:hover, .skill-btn:active {
     border: 2px solid var(--mainColor);
 }
 .btnContent > img {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
 }
 .btnContent > p {
-    font-size: 16px;
+    font-size: 18px;
     width: 85px;
 }
 }

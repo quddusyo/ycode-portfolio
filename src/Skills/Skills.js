@@ -1,17 +1,16 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Skills.css';
 import { SkillsData } from './SkillsData';
 
 const Skills = () => {
 
-    const [ clicked, setClicked ] = useState(false)
+    const [ clicked, setClicked ] = useState(false) // change state of skills button if clicked
 
     const toggle = (id) => {
-        if (clicked===id) {
-            // if toggle on, close it
+        if (clicked===id) { // if toggle on, close it
             return setClicked(false)
-        } else {
-            setClicked(id)
+        } else { // otherwise open
+            return setClicked(id)
         }
     }
 
@@ -22,12 +21,10 @@ const Skills = () => {
             </div>
             <div className='skill-list'>
                 <div className='skills'>
-                    {SkillsData.map((skill, index) => (
+                    {SkillsData.map((skill) => (
                         <button
-                         key={index}
-                        //  hover actions
-                        //  onMouseEnter={() => toggle(skill.id)}
-                        onMouseLeave={() => setClicked(false)}
+                         key={skill.id}
+                         onMouseLeave={() => setClicked(false)}
                          onClick={() => toggle(skill.id)}
                          className='skill-btn'
                         >
