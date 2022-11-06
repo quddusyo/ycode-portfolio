@@ -21,6 +21,8 @@ span {
 .home-slides {
     height: 60px;
     font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 3px;
     padding-bottom: 30px;
 }
 .home-icons-container {

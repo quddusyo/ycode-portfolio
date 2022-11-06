@@ -28,14 +28,14 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
             <Typical
               loop={Infinity}
               steps={[
-                "~ Web Developer 🚀",
+                '~ Web Developer 🚀',
                 1200,
-                "~ Passionate Learner 🌱",
+                '~ Quick Learner 🌱',
                 1200,
-                "~ Great Googler 🔎",
+                '~ Great Googler 🔎',
                 1200,
               ]}
-              wrapper="h4"
+              wrapper="p"
             />
           </div>
           <div className='p-container'>
