@@ -95,7 +95,7 @@ span {
 .profile-picture-background {
     height: 70%;
     width: 70%;
-    background-image: url("../assets/profile-photo.jpg");
+    background-image: url("../assets/profile-photo-sketch.jpg");
     border-bottom: 2px solid var(--mainColor);
     border-top: 2px solid var(--mainColor);
     background-size: cover;

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Typical from 'react-typical';
-import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
+import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiOutlineUser } from 'react-icons/ai';
 
 const Home = ({themeSwitch, setThemeSwitch}) => {
   return (
@@ -10,7 +9,7 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
       <div className='content-container'>
         <div data-aos="fade-left" className='home-intro'>
           <div className='home-icons-container'>
-            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='mailto: yusuf1quddus@gmail.com' target='_blank' rel='noreferrer'>
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='mailto: yousufq1999@gmail.com' target='_blank' rel='noreferrer'>
               <AiTwotoneMail />
             </a>
             <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://www.linkedin.com/in/yousuf-quddus' target='_blank' rel='noreferrer'>
@@ -19,33 +18,21 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
             <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://github.com/quddusyo' target='_blank' rel='noreferrer'>
               <AiFillGithub />
             </a>
-            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://twitter.com/codewithyou' target='_blank' rel='noreferrer'>
-              <AiFillTwitterSquare />
+            <a className={themeSwitch ? 'contact-icon btn-light-style' : 'contact-icon btn-dark-style'} href='https://ysfcontractors.ca' target='_blank' rel='noreferrer'>
+            <AiOutlineUser />
             </a>
           </div>
-          <h3>Hi, I'm <span>Yousuf</span></h3>
+          <h3>Hey, it's <span>Yousuf</span></h3>
           <div className='home-slides'>
-            <Typical
-              loop={Infinity}
-              steps={[
-                '~ Web Developer 🚀',
-                1200,
-                '~ Quick Learner 🌱',
-                1200,
-                '~ Great Googler 🔎',
-                1200,
-              ]}
-              wrapper="p"
-            />
           </div>
           <div className='p-container'>
             <p className='p-default content'>
-              I sit at the intersection of web development and digital marketing to create applications 
+              I sit at the intersection of web development and digital marketing to create real world web solutions 
               and present them in a beautiful and easy-to-understand manner to help businesses grow.
             </p>
           </div>
           <div className='profile-options'>
-            <a href='mailto: yusuf1quddus@gmail.com' target='_blank' rel="noreferrer">
+            <a href='mailto: yousufq1999@gmail.com' target='_blank' rel="noreferrer">
               <button className='btn primary-btn'>Contact Me</button>
             </a>
             <a href='YousufQ_Resume.pdf' download='YousufQ_Resume.pdf'>

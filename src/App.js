@@ -9,6 +9,7 @@ import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Contact from './Contact/Contact';
 
 function App() {
   const [themeSwitch, setThemeSwitch]= useState(true);
@@ -58,6 +59,7 @@ function App() {
         themeSwitch={themeSwitch}
         setThemeSwitch={setThemeSwitch}
       />
+      <Contact themeSwitch={themeSwitch}/>
       <Footer />
     </div>
   );

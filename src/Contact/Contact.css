@@ -1,0 +1,105 @@
+.section__container {
+    margin-top: 140px;
+}
+
+/* css for contact form before media queries */
+
+.contact__container {
+    top: 150px;
+    height: 90vh;
+    margin: 20px 0px 0px 0px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--footerBg);
+    color: var(--white);
+  }
+  
+  .contact__form {
+    background-color: var(--footerBg);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  }
+  
+  form > label {
+    display: none;
+  }
+  
+  form > h3 {
+    text-align: center;
+    color: var(--wite);
+    font-size: 26px;
+    font-family: Rowdies;
+    margin: 40px 10px;
+  }
+  
+  form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: var(--footerBg);
+    outline: none;
+    color: #454545;
+    text-align: start;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    -webkit-appearance: none; /* mobile iOS boxshadow fix for forms */
+  }
+  
+  /* Placeholder Text css from 'https://www.w3schools.com/howto/howto_css_placeholder.asp'*/
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--footerText);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--footerText);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--footerText);
+  }
+  /* End of Placeholder Text css */
+  
+  form button {
+    margin: 10px 10px 30px 10px;
+    padding: 15px;
+    background: var(--secondaryColor);
+    border: 3px solid var(--secondaryColor);
+    font-family: Rowdies;
+    color: var(--white);
+    font-size: 19px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    transition: 0.6s ease-out ;
+    background-color: var(--mainColor);
+  }
+  
+  /* css for contact form after media queries */
+  
+  @media screen and (min-width: 390px) {
+    .contact__container {
+      min-height: 600px;
+      height: 70vh;
+    }
+  }
+  
+  @media screen and (min-width: 820px) {
+    .contact__container {
+      height: 65vh;
+    }
+  }
+

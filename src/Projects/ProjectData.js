@@ -1,7 +1,8 @@
 import project1 from '../assets/Projects/da-spot.png';
-import project2 from '../assets/Projects/ap-pixel-nft.png';
-import project3 from '../assets/Projects/sorting-visualizer.png';
-import project4 from '../assets/Projects/fenceit.png';
+import project2 from '../assets/Projects/albertaducts.png';
+import project3 from '../assets/Projects/ysf-contractors.png';
+import project4 from '../assets/Projects/sorting-visualizer.png';
+import project5 from '../assets/Projects/coldcitywraps.png';
 import htmlIcon from '../assets/Skills/html5.png';
 import cssIcon from '../assets/Skills/css3.png';
 import jsIcon from '../assets/Skills/js.png';
@@ -18,7 +19,7 @@ export const ProjectData = [
     {
         id: 17,
         title: 'Da Spot',
-        description: 'Da Spot is a full-stack CRUD web application which allows users to login, register, and post spots they have visited with ratings to help people efficiently plan their upcoming trips. This muti-page app includes error handling middleware alongside authentication for safe password storing using passport. Utilized Nodejs, Mongodb, Express, Bootstrap, MapBox API, and other npm modules. Try it out or view the source code below.',
+        description: 'Da Spot is a full-stack CRUD web application which allows users to login, register, and post spots they have visited with ratings to help people efficiently plan their upcoming trips. This muti-page app includes error handling middleware alongside authentication for safe password storing using passport. Utilized Nodejs, Mongodb, Express, Bootstrap, MapBox API, and other libraries. Try it out or view the source code below.',
         url: 'https://daspot.herokuapp.com/',
         github_url: 'https://github.com/quddusyo/DaSpot',
         skills: [ 
@@ -67,9 +68,9 @@ export const ProjectData = [
     },
     {
         id: 18,
-        title: 'AP Pixels NFT',
-        description: 'Created with Reactjs, utilized Metamask.io to connect to Rinkeby test net and recieve test ETH for nft gas fees. Posted self-created AP Pixels NFT on thirdweb and used data to fetch and use on app. Implemented a search bar where you can search the NFT by name and a dark theme button to choose light or dark theme for preference.',
-        github_url: 'https://github.com/quddusyo/ap-pixels-nft/tree/version-jan-10',
+        title: 'AlbertaDucts Website',
+        description: 'Created website for AlbertaDucts, a local duct cleaning company based in Calgary, ALberta. Created using Reactjs, utilized emailjs for quick form submission, react-spinners for loading micro-animation, react-toastify for form submission UI.',
+        url: 'https://albertaducts.web.app/',
         skills: [
             { 
                 id: 29,
@@ -90,71 +91,110 @@ export const ProjectData = [
                 id: 32,
                 name: reactIcon,
                 desc: "React"
+            },
+            {
+                id: 33,
+                name: responsiveIcon,
+                desc: "Responsive"
             }
         ],
         image: project2
     },
     {
         id: 19,
-        title: 'Sorting Visualizer',
-        description: 'Created with Reactjs, utilized react hooks to render XML components on to the webpage. This application visualizes a variety of sorting algorithms at work. Implemented a new array button where the user can generate a new array with random values to see another sorting algorithm at work. Give it a try.',
-        github_url: 'https://github.com/quddusyo/Sorting-Visualizer/tree/algorithmImplementation',
+        title: 'YSF Contractors / Media Marketing Agency',
+        description: 'Created website for media marketing agency, and a local contracting company based in Calgary, ALberta. Created using Reactjs, utilized emailjs for quick form submission, react-spinners for loading micro-animation, react-toastify for form submission UI.',
+        url: 'https://ysf-contractors.web.app/',
         skills: [
             { 
-                id: 33,
+                id: 34,
                 name: htmlIcon,
                 desc: "HTML5"
             },
             { 
-                id: 34,
+                id: 35,
                 name: cssIcon,
                 desc: "CSS3"
             },
             { 
-                id: 35,
+                id: 36,
                 name: jsIcon,
                 desc: "JavaScript"
             },
             { 
-                id: 36,
+                id: 37,
                 name: reactIcon,
-                desc: "ReactJs"
+                desc: "React"
+            },
+            {
+                id: 38,
+                name: responsiveIcon,
+                desc: "Responsive"
             }
         ],
         image: project3
     },
     {
         id: 20,
-        title: 'FenceIt',
-        description: 'FenceIt is a renovation company (self created) template which offers a wide variety of renovation services. This multi-page website was created to show customers an example template for potential websites. This website utilizes many modern css properties to give it a modern design and hosted on google firebase.',
-        url: 'https://fenceit-2ab0b.web.app/',
+        title: 'Sorting Visualizer',
+        description: 'Created with Reactjs, utilized react hooks to render XML components on to the webpage. This application visualizes a variety of sorting algorithms at work. Implemented a new array button where the user can generate a new array with random values to see another sorting algorithm at work. Give it a try.',
+        github_url: 'https://github.com/quddusyo/Sorting-Visualizer/tree/algorithmImplementation',
         skills: [
             { 
-                id: 37,
+                id: 39,
                 name: htmlIcon,
-                desc: "HTMLS5"
+                desc: "HTML5"
             },
             { 
-                id: 38,
+                id: 40,
                 name: cssIcon,
                 desc: "CSS3"
             },
             { 
-                id: 39,
+                id: 41,
                 name: jsIcon,
                 desc: "JavaScript"
             },
             { 
-                id: 40,
+                id: 42,
+                name: reactIcon,
+                desc: "ReactJs"
+            }
+        ],
+        image: project4
+    },
+    {
+        id: 43,
+        title: 'ColdCityWraps',
+        description: 'Local vehicle upholestry service website for first client in Calgary Alberta. Created with Reactjs, implemented snowing affect utilizing tsparticle library and hosted on Google Firebase using a custom domain. Implemented a carousel highlight section showing vehicle images the comapany that has been wrapped in the past. ',
+        url: 'https://coldcitywraps.com',
+        skills: [
+            { 
+                id: 44,
+                name: htmlIcon,
+                desc: "HTML5"
+            },
+            { 
+                id: 45,
+                name: cssIcon,
+                desc: "CSS3"
+            },
+            { 
+                id: 46,
+                name: jsIcon,
+                desc: "JavaScript"
+            },
+            { 
+                id: 47,
                 name: reactIcon,
                 desc: "ReactJs"
             },
             { 
-                id: 41,
+                id: 48,
                 name: responsiveIcon,
                 desc: "Responsive"
             }
         ],
-        image: project4
-    }
+        image: project5
+    },
 ]
