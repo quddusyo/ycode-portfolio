@@ -34,10 +34,12 @@ span {
 .btn-light-style > * {
     color: var(--white);
     background-color: var(--secondaryColor);
+    transition: 0.3s ease;
 }
 .btn-dark-style > * {
     color: #21273b;
     background-color: var(--white);
+    transition: 0.3s ease;
 }
 .contact-icon > * {
     width: 26px;
@@ -103,6 +105,11 @@ span {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.3s ease;
+}
+.profile-picture-background_dark {
+    background-image: url("../assets/profile-photo.jpg");
+    transition: 0.3s ease;
 }
 
 @media screen and (min-width: 360px) {

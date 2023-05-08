@@ -42,7 +42,7 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
         </div>
         <div data-aos="fade-right" className='profile'>
           <div className='profile-picture'>
-            <div className='profile-picture-background'></div>
+            <div className={themeSwitch ? 'profile-picture-background' : 'profile-picture-background profile-picture-background_dark'}></div>
           </div>
         </div>
       </div>

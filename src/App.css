@@ -17,6 +17,7 @@
 /* Default App styles */
 .app {
   background-color: rgb(247, 247, 247);
+  transition: 0.3s ease;
   padding: 20px;
   min-height: 100vh;
   max-width: 100vw;
@@ -28,6 +29,11 @@
   padding: 20px;
   min-height: 100vh;
   max-width: 100vw;
+  transition: 0.3s ease;
+}
+/* general transition class */
+.transition {
+  transition: 0.3s ease;
 }
 
 /* default header styles */
