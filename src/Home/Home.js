@@ -33,7 +33,7 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
           </div>
           <div className='profile-options'>
             <a href='mailto: yousufq1999@gmail.com' target='_blank' rel="noreferrer">
-              <button className='btn primary-btn'>Contact Me</button>
+              <button className='btn primary-btn'>Contact</button>
             </a>
             <a href='YousufQ_Resume.pdf' download='YousufQ_Resume.pdf'>
               <button className='btn highlighted-btn'>Get Resume</button>

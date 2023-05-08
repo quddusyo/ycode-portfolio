@@ -13,7 +13,8 @@ const ContactContent = ({themeSwitch}) => {
     const sendEmail = (e) => {
         e.preventDefault();
         // loading
-        emailjs.sendForm('service_i9q6asi', 'template_bhfno2q', form.current, 'mgqyruXeX8t3cJZ4_')
+        // .env variables for email js API KEYS
+        emailjs.sendForm( process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((res) => {
                 console.log('SUCCESS!', res.status, res.text);
                 notifySuccess();
@@ -38,7 +39,7 @@ const ContactContent = ({themeSwitch}) => {
         theme="light"
         />
         <form className={themeSwitch ? 'contact__form bg-light-1' : 'contact__form bg-dark-1'} ref={form} onSubmit={sendEmail}>
-            <h3>Contact Me</h3>
+            <h3>Get In Contact</h3>
             <label>Name</label>
             <input type='text' name='user_name' placeholder='Your Name' required />
             <label>Email</label>

@@ -24,3 +24,4 @@ $ yarn start
 - React-spinners for loading animation.
 - React-toastify for notifcation UI.
 - emailjs to handle backend form submission.
+- how to use .env variables and call them on another file (process.env), make sure to add .env to .gitignore file.

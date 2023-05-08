@@ -26,6 +26,7 @@ justify-content: center;
 .skill-btn {
 position: relative;
 margin: 0.5em;
+padding: 0.5em;
 margin-bottom: 1rem;
 cursor: pointer;
 border-radius: 50px;
@@ -34,7 +35,7 @@ background: var(--tertiaryBgColor);
 }
 
 .skill-btn:active, .skill-btn:hover {
-    border: 1.6px solid var(--mainColor);
+    border: 2px solid var(--mainColor);
     /* outline: 0; */
 }
 
