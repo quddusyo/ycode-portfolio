@@ -23,8 +23,6 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
             </a>
           </div>
           <h3>Hey, it's <span>Yousuf</span></h3>
-          <div className='home-slides'>
-          </div>
           <div className='p-container'>
             <p className='p-default content'>
               I sit at the intersection of web development and digital marketing to create real world web solutions 
