@@ -102,7 +102,7 @@ export const ProjectData = [
     },
     {
         id: 19,
-        title: 'YSF Contractors / Media Marketing Agency',
+        title: 'YSF Contractors',
         description: 'Created website for media marketing agency, and a local contracting company based in Calgary, ALberta. Created using Reactjs, utilized emailjs for quick form submission, react-spinners for loading micro-animation, react-toastify for form submission UI.',
         url: 'https://ysf-contractors.web.app/',
         skills: [
