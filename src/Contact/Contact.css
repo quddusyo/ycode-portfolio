@@ -33,7 +33,7 @@
   
   form > h3 {
     text-align: center;
-    color: var(--wite);
+    color: var(--footerText);
     font-size: 26px;
     font-family: Rowdies;
     margin: 40px 10px;
@@ -45,7 +45,7 @@
     padding: 20px;
     background-color: var(--footerBg);
     outline: none;
-    color: #454545;
+    color: var(--footerText);
     text-align: start;
     border-radius: 10px;
     font-size: 18px;
@@ -56,16 +56,16 @@
   
   /* Placeholder Text css from 'https://www.w3schools.com/howto/howto_css_placeholder.asp'*/
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: var(--footerText);
+    color: #454545;
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: var(--footerText);
+    color: #454545;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: var(--footerText);
+    color: #454545;
   }
   /* End of Placeholder Text css */
   

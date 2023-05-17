@@ -18,8 +18,8 @@ import postmanIcon from '../assets/Skills/postman.png';
 export const ProjectData = [
     {
         id: 17,
-        title: 'Da Spot',
-        description: 'Da Spot is a full-stack CRUD web application which allows users to login, register, and post spots they have visited with ratings to help people efficiently plan their upcoming trips. This muti-page app includes error handling middleware alongside authentication for safe password storing using passport. Utilized Nodejs, Mongodb, Express, Bootstrap, MapBox API, and other libraries. Try it out or view the source code below.',
+        title: 'DaSpot Full-Stack Web App',
+        description: 'With user registration, login capabilities, and full CRUD operations for spot locations, "DaSpot" empowers users to effortlessly explore and maintain their favorite places. Leveraging HTML, CSS, and Bootstrap for the front-end and Javascript, Node.js and Express.js for the back-end, "DaSpot" ensures a smooth and efficient user experience. User authentication is implemented using Passport.js, a trusted authentication middleware in the Node.js ecosystem alongside other libraries. The application integrates with MongoDB for efficient data storage and retrieval. Notably, "DaSpot" utilizes Mapbox, a powerful mapping platform, enabling users to visualize and interact with spot locations on interactive maps. Join us in revolutionizing spot location management with our dynamic, tech-forward app that seamlessly combines the power of Mapbox with user-friendly functionality.',
         url: 'https://daspot.herokuapp.com/',
         github_url: 'https://github.com/quddusyo/DaSpot',
         skills: [ 
@@ -69,7 +69,7 @@ export const ProjectData = [
     {
         id: 18,
         title: 'AlbertaDucts Website',
-        description: 'Created website for AlbertaDucts, a local duct cleaning company based in Calgary, ALberta. Created using Reactjs, utilized emailjs for quick form submission, react-spinners for loading micro-animation, react-toastify for form submission UI.',
+        description: 'Built with ReactJS allowing a seamless user experience, visitors can easily navigate through the website to learn about the companies expertise in duct cleaning and the benefits it brings to indoor air quality. Our quick form submission feature, powered by emailjs, ensures that customers can easily reach out to the company for inquiries and appointments. Integrated react-spinners to add subtle loading micro-animations, enhancing the visual appeal of the site. Additionally, utilized react-toastify, enhancing the form submission process by providing a user-friendly and intuitive UI.',
         url: 'https://albertaducts.web.app/',
         skills: [
             { 
@@ -102,8 +102,8 @@ export const ProjectData = [
     },
     {
         id: 19,
-        title: 'YSF Contractors',
-        description: 'Created website for media marketing agency, and a local contracting company based in Calgary, ALberta. Created using Reactjs, utilized emailjs for quick form submission, react-spinners for loading micro-animation, react-toastify for form submission UI.',
+        title: 'YSF Contractors Company',
+        description: 'Implemented using React.js and hosted using frebase and custom domain from GoDaddy. The websites feature a modern and interactive design, implemented various tools and libraries to enhance functionality and user experience. For efficient form submission, integrated emailjs, allowing quick and seamless communication. Utilized react-spinners to incorporate loading micro-animations and react-toastify to provide a user-friendly interface for form submissions. Websites highlights proficiency in React.js development and ability to create visually appealing and user-friendly digital experiences.',
         url: 'https://ysf-contractors.web.app/',
         skills: [
             { 
@@ -137,7 +137,7 @@ export const ProjectData = [
     {
         id: 20,
         title: 'Sorting Visualizer',
-        description: 'Created with Reactjs, utilized react hooks to render XML components on to the webpage. This application visualizes a variety of sorting algorithms at work. Implemented a new array button where the user can generate a new array with random values to see another sorting algorithm at work. Give it a try.',
+        description: 'Through the utilization of React.js and hooks, this project provides an interactive and visually engaging platform to observe the workings of various sorting algorithms by rendering XML components and allowing users to generate new arrays for dynamic algorithm comparisons. The source code for this project is available on GitHub.',
         github_url: 'https://github.com/quddusyo/Sorting-Visualizer/tree/algorithmImplementation',
         skills: [
             { 
@@ -165,8 +165,8 @@ export const ProjectData = [
     },
     {
         id: 43,
-        title: 'ColdCityWraps',
-        description: 'Local vehicle upholestry service website for first client in Calgary Alberta. Created with Reactjs, implemented snowing affect utilizing tsparticle library and hosted on Google Firebase using a custom domain. Implemented a carousel highlight section showing vehicle images the comapany that has been wrapped in the past. ',
+        title: 'ColdCityWrap Vehicle Upholestry',
+        description: 'Website built using React.js. This Unique design features a captivating snowing effect implemented using tsparticle library. Hosted on Google Firebase and accessible through a custom domain from GoDaddy, this responsive multi-page website ensures a seamless browsing experience. Includes carousel highlight section, showcasing stunning images of vehicles expertly wrapped in the past. Website increased customers, generating increased revenue, ultimately building a online pressence and long term vision and safety for the company.',
         url: 'https://coldcitywraps.com',
         skills: [
             { 

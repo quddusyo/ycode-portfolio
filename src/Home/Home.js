@@ -4,7 +4,8 @@ import { AiFillGithub, AiTwotoneMail, AiFillLinkedin, AiOutlineUser } from 'reac
 
 const Home = ({themeSwitch, setThemeSwitch}) => {
   return (
-    <div className={themeSwitch ? 'home-container bg-light-1 container-default' : 'home-container container-default bg-dark-1 dark-text'}>
+    // example below of using the transition class for easier code
+    <div className={themeSwitch ? 'home-container bg-light-1 container-default transition' : 'home-container container-default bg-dark-1 dark-text transition'}>
       <h2>Web Developer</h2>
       <div className='content-container'>
         <div data-aos="fade-left" className='home-intro'>
