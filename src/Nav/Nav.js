@@ -6,7 +6,7 @@ import themeSwitchIcon from '../assets/Nav/theme-switch.png';
 const Nav = ({themeSwitch, setThemeSwitch}) => {
   return (
     <div className='nav-container'>
-        <h1>ycode.co</h1>
+        <h1>y.code</h1>
         <div className='nav-right'>
             <button
               className={themeSwitch ? 'themeSwitchContainerLight nav-switch' : 'themeSwitchContainer nav-switch'}

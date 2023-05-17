@@ -18,7 +18,7 @@ import postmanIcon from '../assets/Skills/postman.png';
 export const ProjectData = [
     {
         id: 17,
-        title: 'DaSpot Full-Stack Web App',
+        title: 'Full-Stack CRUD Web App',
         description: 'With user registration, login capabilities, and full CRUD operations for spot locations, "DaSpot" empowers users to effortlessly explore and maintain their favorite places. Leveraging HTML, CSS, and Bootstrap for the front-end and Javascript, Node.js and Express.js for the back-end, "DaSpot" ensures a smooth and efficient user experience. User authentication is implemented using Passport.js, a trusted authentication middleware in the Node.js ecosystem alongside other libraries. The application integrates with MongoDB for efficient data storage and retrieval. Notably, "DaSpot" utilizes Mapbox, a powerful mapping platform, enabling users to visualize and interact with spot locations on interactive maps. ',
         url: 'https://daspot.herokuapp.com/',
         github_url: 'https://github.com/quddusyo/DaSpot',

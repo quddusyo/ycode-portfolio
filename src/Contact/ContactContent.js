@@ -47,7 +47,7 @@ const ContactContent = ({themeSwitch}) => {
             <label>Phone</label>
             <input type='phone' name='user_phone' placeholder='Phone no. (Optional)' />
             <label>Message</label>
-            <textarea type='text' name='message' placeholder='Remember to be nice!'></textarea>
+            <textarea type='text' name='message' placeholder='Anything that can make the site better? Comment!'></textarea>
             <SubmitBtn isPending={isPending} setIsPending={setIsPending}/>
         </form>
     </div>
