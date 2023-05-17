@@ -19,7 +19,7 @@ export const ProjectData = [
     {
         id: 17,
         title: 'DaSpot Full-Stack Web App',
-        description: 'With user registration, login capabilities, and full CRUD operations for spot locations, "DaSpot" empowers users to effortlessly explore and maintain their favorite places. Leveraging HTML, CSS, and Bootstrap for the front-end and Javascript, Node.js and Express.js for the back-end, "DaSpot" ensures a smooth and efficient user experience. User authentication is implemented using Passport.js, a trusted authentication middleware in the Node.js ecosystem alongside other libraries. The application integrates with MongoDB for efficient data storage and retrieval. Notably, "DaSpot" utilizes Mapbox, a powerful mapping platform, enabling users to visualize and interact with spot locations on interactive maps. Join us in revolutionizing spot location management with our dynamic, tech-forward app that seamlessly combines the power of Mapbox with user-friendly functionality.',
+        description: 'With user registration, login capabilities, and full CRUD operations for spot locations, "DaSpot" empowers users to effortlessly explore and maintain their favorite places. Leveraging HTML, CSS, and Bootstrap for the front-end and Javascript, Node.js and Express.js for the back-end, "DaSpot" ensures a smooth and efficient user experience. User authentication is implemented using Passport.js, a trusted authentication middleware in the Node.js ecosystem alongside other libraries. The application integrates with MongoDB for efficient data storage and retrieval. Notably, "DaSpot" utilizes Mapbox, a powerful mapping platform, enabling users to visualize and interact with spot locations on interactive maps. ',
         url: 'https://daspot.herokuapp.com/',
         github_url: 'https://github.com/quddusyo/DaSpot',
         skills: [ 
@@ -69,7 +69,7 @@ export const ProjectData = [
     {
         id: 18,
         title: 'AlbertaDucts Website',
-        description: 'Built with ReactJS allowing a seamless user experience, visitors can easily navigate through the website to learn about the companies expertise in duct cleaning and the benefits it brings to indoor air quality. Our quick form submission feature, powered by emailjs, ensures that customers can easily reach out to the company for inquiries and appointments. Integrated react-spinners to add subtle loading micro-animations, enhancing the visual appeal of the site. Additionally, utilized react-toastify, enhancing the form submission process by providing a user-friendly and intuitive UI.',
+        description: 'Built with ReactJS allowing a seamless user experience, visitors can easily navigate through the website to learn about the companies expertise in duct cleaning and the benefits it brings to indoor air quality. Implemented backend API form submission feature, powered by emailjs, ensuring customers can easily reach out to the company for inquiries and appointments. Integrated react-spinners to add subtle loading micro-animations, enhancing the visual appeal of the site. Additionally, utilized react-toastify, enhancing the form submission process by providing a user-friendly and intuitive UI.',
         url: 'https://albertaducts.web.app/',
         skills: [
             { 
@@ -103,7 +103,7 @@ export const ProjectData = [
     {
         id: 19,
         title: 'YSF Contractors Company',
-        description: 'Implemented using React.js and hosted using frebase and custom domain from GoDaddy. The websites feature a modern and interactive design, implemented various tools and libraries to enhance functionality and user experience. For efficient form submission, integrated emailjs, allowing quick and seamless communication. Utilized react-spinners to incorporate loading micro-animations and react-toastify to provide a user-friendly interface for form submissions. Websites highlights proficiency in React.js development and ability to create visually appealing and user-friendly digital experiences.',
+        description: 'Built using React.js and hosted using Firebase utilizing custom domain from GoDaddy. The websites feature a modern and interactive design, implemented various tools and libraries to enhance functionality and user experience. For efficient form submission, integrated emailjs, allowing quick and seamless communication. Utilized react-spinners to incorporate loading micro-animations and react-toastify to provide a user-friendly interface for form submissions. Websites highlights proficiency in React.js development and ability to create visually appealing and user-friendly digital experiences.',
         url: 'https://ysf-contractors.web.app/',
         skills: [
             { 
