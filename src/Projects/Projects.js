@@ -18,7 +18,7 @@ const Projects = ({themeSwitch, setThemeSwitch}) => {
         <h2>Projects I've worked on</h2>
         {ProjectData.map((project) => { // map through every project in project data
             return (
-                <div  data-aos="flip-right" className={themeSwitch ? 'project-container bg-light-1' : 'project-container bg-dark-1 dark-text'} key={project.id}>
+                <div  data-aos="fade" className={themeSwitch ? 'project-container bg-light-1' : 'project-container bg-dark-1 dark-text'} key={project.id}>
                     <h3>{project.title}</h3>
                     <div className='project-img'>
                         <img src={project.image} alt='' />
