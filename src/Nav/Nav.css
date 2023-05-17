@@ -20,11 +20,13 @@
     background-image: linear-gradient(to left, var(--mainColor) , var(--orange));
     padding: 5px;
     border-radius: 50%;
+    transition: 0.3s ease-in-out;
 }
 .nav-switch:hover {
-    background-image: linear-gradient(to right, var(--mainColor) , var(--orange));
+    background-image: none;
+    background-color: var(--mainColor);
+    border-radius: 20%;
     transition: 0.3s ease-in-out;
-    transform: scale(1.3);
 }
 button > img {
     height: 20px;

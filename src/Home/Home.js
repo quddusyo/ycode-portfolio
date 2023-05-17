@@ -6,7 +6,7 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
   return (
     // example below of using the transition class for easier code
     <div className={themeSwitch ? 'home-container bg-light-1 container-default transition' : 'home-container container-default bg-dark-1 dark-text transition'}>
-      <h2>Web Developer</h2>
+      <h2>Software Engineer</h2>
       <div className='content-container'>
         <div data-aos="fade-left" className='home-intro'>
           <div className='home-icons-container'>
@@ -26,8 +26,8 @@ const Home = ({themeSwitch, setThemeSwitch}) => {
           <h3>Hey, it's <span>Yousuf</span></h3>
           <div className='p-container'>
             <p className='p-default content'>
-              I sit at the intersection of web development and digital marketing to create real world web solutions 
-              and present them in a beautiful and easy-to-understand manner to help businesses grow.
+              I sit at the intersection between software engineering, web development, and digital marketing 
+              to create real world web solutions and present them in a beautiful and easy-to-understand manner to help businesses grow.
             </p>
           </div>
           <div className='profile-options'>

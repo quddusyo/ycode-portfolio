@@ -48,7 +48,7 @@ span {
     height: auto;
 }
 .contact-icon > *:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     background-color: var(--mainColor);
     transition: 0.3s ease-out;
 }
