@@ -69,7 +69,7 @@ export const ProjectData = [
     {
         id: 18,
         title: 'AlbertaDucts Website',
-        description: 'Built with ReactJS allowing a seamless user experience, visitors can easily navigate through the website to learn about the companies expertise in duct cleaning and the benefits it brings to indoor air quality. Implemented backend API form submission feature, powered by emailjs, ensuring customers can easily reach out to the company for inquiries and appointments. Integrated react-spinners to add subtle loading micro-animations, enhancing the visual appeal of the site. Additionally, utilized react-toastify, enhancing the form submission process by providing a user-friendly and intuitive UI.',
+        description: 'Built with ReactJS allowing a seamless user experience, visitors can easily navigate through the website to learn about the companies expertise in duct cleaning and the benefits it brings to indoor air quality. Implemented backend API for form submission, powered by emailjs, ensuring customers can easily reach out to the company for inquiries and appointments. Integrated react-spinners to add subtle loading micro-animations, enhancing the visual appeal of the site. Additionally, utilized react-toastify, enhancing the form submission process by providing a user-friendly and intuitive UI alongside stripe payment processing API to collect service funds.',
         url: 'https://albertaducts.web.app/',
         skills: [
             { 
