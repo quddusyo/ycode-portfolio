@@ -4,7 +4,7 @@ for the project you will need the following:
 to download dependancies:
 
 ```bash
-$ npm react-icons react-typical emailjs/browser react-spinners react-toastify
+$ npm install react-icons react-typical emailjs/browser react-spinners react-toastify
 ```
 
 To run reactjs application run:

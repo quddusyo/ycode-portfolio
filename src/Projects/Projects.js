@@ -15,7 +15,7 @@ const Projects = ({themeSwitch, setThemeSwitch}) => {
     }
   return (
     <div className='projects-container container-default'>
-        <h2>Projects I've worked on</h2>
+        <h2>My Projects</h2>
         {ProjectData.map((project) => { // map through every project in project data
             return (
                 <div  data-aos="fade" className={themeSwitch ? 'project-container bg-light-1' : 'project-container bg-dark-1 dark-text'} key={project.id}>

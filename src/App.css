@@ -2,7 +2,7 @@
 /* can apply by adding var(--DesiredColor) */
 :root {
   --mainColor: rgb(255, 69, 0);
-  --secondaryColor: #21273b;
+  --secondaryColor: rgb(32, 33, 36);
   --footerBg: rgb(17, 17, 17);
   --footerText: rgb(162, 162, 162);
   --beige: rgb(255, 248, 220);

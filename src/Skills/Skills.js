@@ -17,7 +17,7 @@ const Skills = () => {
     return (
         <div data-aos="fade-right" className='skills-container container-default'>
             <div className='title-container'>
-                <h2>my tech stack</h2>
+                <h2>my technologies</h2>
             </div>
             <div className='skill-list'>
                 <div className='skills'>
