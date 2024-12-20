@@ -4,11 +4,9 @@ for the project you will need the following:
 to download dependancies:
 
 ```bash
-<<<<<<< HEAD
 $ npm install react-icons react-typical emailjs/browser react-spinners react-toastify
 =======
 npm install react-icons react-typical emailjs/browser react-spinners react-toastify
->>>>>>> 33ef2cef507d41451595f6022f6adbf673064058
 ```
 
 To run reactjs application run:
@@ -17,6 +15,15 @@ To run reactjs application run:
 npm install start
 ```
 
+
+To re-deploy:
+
+```bash
+cd path/to/project
+firebase init hosting
+npm run build
+firebase deploy
+```
 ## What I Learned
 
 - How to use react-typical library to add broken text animation. (do not use again outdated lib)
